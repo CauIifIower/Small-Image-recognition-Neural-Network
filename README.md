@@ -78,19 +78,19 @@ python nn.py
 
 ## Project structure
 
-─ create_dataset.py          # Generates and saves the image dataset
+─ create_dataset.py          -> Generates and saves the image dataset
 
-─ dataset.py                 # Dataset templates and augmentation logic
+─ dataset.py                 -> Dataset templates and augmentation logic
 
-─ generate_and_check_data.py # Data validation and inspection
+─ generate_and_check_data.py -> Data validation and inspection
 
-─ nn.py                      # Network architecture, training loop, evaluation
+─ nn.py                      -> Network architecture, training loop, evaluation
 
-─ dataset.pkl                # Serialised dataset (generated)
+─ dataset.pkl                -> Serialised dataset (generated)
 
-─ trained_model_nn.pkl       # Saved model weights (generated)
+─ trained_model_nn.pkl       -> Saved model weights (generated)
 
-─ training_curve_nn.png      # Loss curve plot (generated)
+─ training_curve_nn.png      -> Loss curve plot (generated)
 
 ---
 
